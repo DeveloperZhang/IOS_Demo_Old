@@ -20,6 +20,7 @@
 #pragma mark -Cycle Methods
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"Test commit");
     
 }
 
