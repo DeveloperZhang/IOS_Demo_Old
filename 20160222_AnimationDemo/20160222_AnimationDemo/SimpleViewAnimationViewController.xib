@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleViewAnimationViewController">
+            <connections>
+                <outlet property="myView" destination="tCf-uJ-5it" id="NW7-tx-ier"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tCf-uJ-5it">
+                    <rect key="frame" x="29" y="70" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lE8-ba-dl9">
+                    <rect key="frame" x="0.0" y="547" width="600" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="z6B-Az-MrH"/>
+                    </constraints>
+                    <state key="normal" title="Action"/>
+                    <connections>
+                        <action selector="action:" destination="-1" eventType="touchUpInside" id="wAh-1i-U1l"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lE8-ba-dl9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KtT-1c-DjV"/>
+                <constraint firstAttribute="bottom" secondItem="lE8-ba-dl9" secondAttribute="bottom" id="aup-fn-HEH"/>
+                <constraint firstAttribute="trailing" secondItem="lE8-ba-dl9" secondAttribute="trailing" id="rO8-T1-5z9"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

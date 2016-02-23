@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  20160222_AnimationDemo
+//  AutoLayoutDemo
 //
-//  Created by ZhangYu on 16/2/22.
+//  Created by ZhangYu on 16/2/23.
 //  Copyright © 2016年 ZhangYu. All rights reserved.
 //
 
@@ -15,12 +15,9 @@
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArray = @[@"SimpleAnimationViewController",@"SimpleDrawViewController",@"SimpleAddAnimationViewController",
-                       @"SimpleKeyAnimationViewController",@"SimpleTransitionAnimationViewController",
-                       @"SimpleViewAnimationViewController"];
+    self.dataArray = @[@"OldMethodViewController",@"VFLMethodViewController",@"MasonryViewController"];
 }
 
 #pragma mark -tableView delegate
@@ -49,5 +46,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
 
 @end

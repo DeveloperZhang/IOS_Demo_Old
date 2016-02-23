@@ -27,6 +27,8 @@
 		E73655F71C7B000400E23CF3 /* SimpleKeyAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73655F51C7B000400E23CF3 /* SimpleKeyAnimationViewController.xib */; };
 		E73655FB1C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73655F91C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.m */; };
 		E73655FC1C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73655FA1C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.xib */; };
+		E7CC779C1C7C43740096B4B5 /* SimpleViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC779A1C7C43740096B4B5 /* SimpleViewAnimationViewController.m */; };
+		E7CC779D1C7C43740096B4B5 /* SimpleViewAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7CC779B1C7C43740096B4B5 /* SimpleViewAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,9 @@
 		E73655F81C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTransitionAnimationViewController.h; sourceTree = "<group>"; };
 		E73655F91C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTransitionAnimationViewController.m; sourceTree = "<group>"; };
 		E73655FA1C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTransitionAnimationViewController.xib; sourceTree = "<group>"; };
+		E7CC77991C7C43740096B4B5 /* SimpleViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewAnimationViewController.h; sourceTree = "<group>"; };
+		E7CC779A1C7C43740096B4B5 /* SimpleViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewAnimationViewController.m; sourceTree = "<group>"; };
+		E7CC779B1C7C43740096B4B5 /* SimpleViewAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleViewAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				E73655F81C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.h */,
 				E73655F91C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.m */,
 				E73655FA1C7B0A6300E23CF3 /* SimpleTransitionAnimationViewController.xib */,
+				E7CC77991C7C43740096B4B5 /* SimpleViewAnimationViewController.h */,
+				E7CC779A1C7C43740096B4B5 /* SimpleViewAnimationViewController.m */,
+				E7CC779B1C7C43740096B4B5 /* SimpleViewAnimationViewController.xib */,
 				E73655C61C7AA7F000E23CF3 /* Assets.xcassets */,
 				E73655C81C7AA7F000E23CF3 /* LaunchScreen.storyboard */,
 				E73655CB1C7AA7F000E23CF3 /* Info.plist */,
@@ -198,6 +206,7 @@
 				E73655C71C7AA7F000E23CF3 /* Assets.xcassets in Resources */,
 				E73655F21C7AF2A700E23CF3 /* SimpleAddAnimationViewController.xib in Resources */,
 				E73655D51C7AB47B00E23CF3 /* header.jpg in Resources */,
+				E7CC779D1C7C43740096B4B5 /* SimpleViewAnimationViewController.xib in Resources */,
 				E73655C51C7AA7F000E23CF3 /* Main.storyboard in Resources */,
 				E73655E51C7AD66900E23CF3 /* SimpleDrawViewController.xib in Resources */,
 				E73655E31C7AD65100E23CF3 /* SimpleAnimationViewController.xib in Resources */,
@@ -217,6 +226,7 @@
 				E73655BF1C7AA7F000E23CF3 /* AppDelegate.m in Sources */,
 				E73655BC1C7AA7F000E23CF3 /* main.m in Sources */,
 				E73655D31C7AABE600E23CF3 /* SimpleAnimationViewController.m in Sources */,
+				E7CC779C1C7C43740096B4B5 /* SimpleViewAnimationViewController.m in Sources */,
 				E73655D91C7AB4CF00E23CF3 /* SimpleDrawViewController.m in Sources */,
 				E73655F61C7B000400E23CF3 /* SimpleKeyAnimationViewController.m in Sources */,
 			);
@@ -365,6 +375,7 @@
 				E73655D01C7AA7F000E23CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

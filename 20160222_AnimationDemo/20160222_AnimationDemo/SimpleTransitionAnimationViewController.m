@@ -26,7 +26,7 @@
     
     //定义图片控件
     _imageView=[[UIImageView alloc]init];
-    _imageView.frame=[UIScreen mainScreen].applicationFrame;
+    _imageView.frame=[[UIScreen mainScreen] bounds];
     _imageView.contentMode=UIViewContentModeScaleAspectFit;
     _imageView.backgroundColor = _colorArray[0];
     [self.view addSubview:_imageView];
