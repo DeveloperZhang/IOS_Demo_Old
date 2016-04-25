@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E747974D1C8804DC001936AB /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E747974C1C8804DC001936AB /* dog.jpeg */; };
+		E74797501C881078001936AB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E747974F1C881078001936AB /* SecondViewController.m */; };
 		E7E021711C8694AE00AF0106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E021701C8694AE00AF0106 /* main.m */; };
 		E7E021741C8694AE00AF0106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E021731C8694AE00AF0106 /* AppDelegate.m */; };
 		E7E021771C8694AE00AF0106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E021761C8694AE00AF0106 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E747974C1C8804DC001936AB /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		E747974E1C881078001936AB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E747974F1C881078001936AB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E7E0216C1C8694AE00AF0106 /* 20160302_CATransformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20160302_CATransformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E021701C8694AE00AF0106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E021721C8694AE00AF0106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 				E7E021731C8694AE00AF0106 /* AppDelegate.m */,
 				E7E021751C8694AE00AF0106 /* ViewController.h */,
 				E7E021761C8694AE00AF0106 /* ViewController.m */,
+				E747974E1C881078001936AB /* SecondViewController.h */,
+				E747974F1C881078001936AB /* SecondViewController.m */,
+				E747974C1C8804DC001936AB /* dog.jpeg */,
 				E7E021781C8694AE00AF0106 /* Main.storyboard */,
 				E7E0217B1C8694AE00AF0106 /* Assets.xcassets */,
 				E7E0217D1C8694AE00AF0106 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			files = (
 				E7E0217F1C8694AE00AF0106 /* LaunchScreen.storyboard in Resources */,
 				E7E0217C1C8694AE00AF0106 /* Assets.xcassets in Resources */,
+				E747974D1C8804DC001936AB /* dog.jpeg in Resources */,
 				E7E0217A1C8694AE00AF0106 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74797501C881078001936AB /* SecondViewController.m in Sources */,
 				E7E021771C8694AE00AF0106 /* ViewController.m in Sources */,
 				E7E021741C8694AE00AF0106 /* AppDelegate.m in Sources */,
 				E7E021711C8694AE00AF0106 /* main.m in Sources */,
@@ -298,6 +308,7 @@
 				E7E021851C8694AE00AF0106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
